@@ -1,4 +1,6 @@
 export default function BoilingVerdict({celsius = 0}){
-    if(celsius >= 1) {  return <p>The water would Boil</p>}
-    else {return <p>The water would not Boil</p>}
+    if(celsius >= 0) 
+        return <p>Water will be Boiled</p>
+    else
+        return <p>Water will not be Boiled</p>
 }
